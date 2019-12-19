@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daa14b85-e813-462b-8e02-bcbf977fc977" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/static/hotel.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/EmployeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/EmployeeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/static/hotel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/static/hotel.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +239,7 @@
       <workItem from="1576651554564" duration="5142000" />
       <workItem from="1576667081561" duration="6534000" />
       <workItem from="1576711767083" duration="3446000" />
-      <workItem from="1576717920382" duration="6833000" />
+      <workItem from="1576717920382" duration="7322000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1576723713895</created>
@@ -256,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576724874731</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第二次提交">
+      <created>1576725280103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576725280103</updated>
+    </task>
+    <task id="LOCAL-00004" summary="第二次提交">
+      <created>1576725369934</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576725369934</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +283,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Notifications" timestamp="1576725444812">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1576725444812" />
     <state x="275" y="22" key="#Project_Structure" timestamp="1576637322359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -286,10 +303,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="216" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1576637983191" />
-    <state x="95" y="0" key="CommitChangelistDialog2" timestamp="1576725259457">
+    <state x="95" y="0" key="CommitChangelistDialog2" timestamp="1576725386432">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="95" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576725259457" />
+    <state x="95" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576725386432" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1576723494498">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
