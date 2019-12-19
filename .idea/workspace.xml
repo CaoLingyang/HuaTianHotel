@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daa14b85-e813-462b-8e02-bcbf977fc977" name="Default Changelist" comment="" />
+    <list default="true" id="daa14b85-e813-462b-8e02-bcbf977fc977" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/static/hotel.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/EmployeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/EmployeeEntity.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +69,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -83,6 +94,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1V8V7UgQji5diUkhp98VwtYTQaE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -92,7 +104,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -106,15 +118,15 @@
     <property name="project.structure.side.proportion" value="0.24784216" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Dao\src\main\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Dao\src\main\resources\static" />
       <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Dao\src\main\resources" />
       <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Web\src\main\java\com\config" />
       <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Web\src\main\java\com\controller" />
       <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Web\web\WEB-INF\views" />
-      <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Service\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Dao\src\main\resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -228,12 +240,24 @@
       <workItem from="1576651554564" duration="5142000" />
       <workItem from="1576667081561" duration="6534000" />
       <workItem from="1576711767083" duration="3446000" />
-      <workItem from="1576717920382" duration="5029000" />
+      <workItem from="1576717920382" duration="6468000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1576723713895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576723713895</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Project_Structure" timestamp="1576637322359">
@@ -252,10 +276,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="216" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1576637983191" />
-    <state x="128" y="0" key="CommitChangelistDialog2" timestamp="1576723579920">
+    <state x="128" y="0" key="CommitChangelistDialog2" timestamp="1576723710212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="128" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576723579920" />
+    <state x="128" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576723710212" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1576723494498">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -316,6 +340,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="529" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1576655133456" />
+    <state x="183" y="74" key="Vcs.Push.Dialog.v2" timestamp="1576723856315">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="183" y="74" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576723856315" />
     <state x="115" y="117" key="new project wizard" timestamp="1576637918870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
