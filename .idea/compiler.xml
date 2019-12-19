@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="NF-150-Cly-Exception" />
+        <module name="NF-150-Cly-Service" />
+        <module name="NF-150-Cly-Entity" />
+        <module name="NF-150-Cly-Web" />
+        <module name="NF-150-CLY-Interceptor" />
+        <module name="NF-150-Cly-Dao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="NF-150-Cly-Config" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.HotelAnnouncementDao">
+    <select id="getAll" resultType="com.entity.HotelAnnouncement">
+   select id, headline, content, promulgator, desiginer, releasetime from hotelannouncement
+    </select>
+
+    <update id="updateById">
+        update hotelannouncement set headline=#{headline},content=#{content},
+        promulgator=#{promulgator},desiginer=#{desiginer},releasetime=#{releasetime}
+        where id=#{id}
+    </update>
+
+    <select id="getAllById" resultType="com.entity.HotelAnnouncement" parameterType="Integer">
+        select id, headline, content, promulgator, desiginer, releasetime  from hotelannouncement
+        where id=#{id}
+    </select>
+</mapper>
