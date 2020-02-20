@@ -10,107 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daa14b85-e813-462b-8e02-bcbf977fc977" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/java/com/dao/PayDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/mappers/PayDaoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/static/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/static/img/password_mark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/static/img/username_mark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/static/img/verify_mark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/static/js/jquery-1.12.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/Pay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Service/src/main/java/com/service/PayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Service/src/main/java/com/service/impl/PayServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Web/src/main/java/com/controller/CheckInController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Web/src/main/java/com/controller/PayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/PayMoney.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/checkIn.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/payList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/testLogin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d4f0d51-b44c-4af9-a914-50c3bdfdee99.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d4f0d51-b44c-4af9-a914-50c3bdfdee99.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-CLY-Interceptor/target/NF-150-CLY-Interceptor-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-CLY-Interceptor/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-CLY-Interceptor/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-CLY-Interceptor/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/java/com/dao/AccountInformationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/java/com/dao/AccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/java/com/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/java/com/dao/EmployeeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/java/com/dao/HotelAnnouncementDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/java/com/dao/HotelAnnouncementDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/mappers/AdministradorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/mappers/AdministradorMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/mappers/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/src/main/resources/mappers/EmployeeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/target/NF-150-Cly-Dao-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/target/classes/com/dao/AccountInformationDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/target/classes/com/dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/target/classes/com/dao/EmployeeDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/target/classes/com/dao/HotelAnnouncementDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/target/classes/com/dao/HotelAnnouncementDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/target/classes/mappers/AdministradorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/target/classes/mappers/AdministradorMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/target/classes/mappers/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Dao/target/classes/mappers/EmployeeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/Administrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/Administrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/AdministradorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/AdministradorEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/CustomerInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/CustomerInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/EmployeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/EmployeeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/HotelAnnouncement.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/HotelAnnouncement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/src/main/java/com/entity/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/target/NF-150-Cly-Entity-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/target/classes/com/entity/Administrador.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/target/classes/com/entity/Administrador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/target/classes/com/entity/AdministradorEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/target/classes/com/entity/AdministradorEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/target/classes/com/entity/CustomerInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/target/classes/com/entity/CustomerInformation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/target/classes/com/entity/EmployeeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/target/classes/com/entity/EmployeeEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/target/classes/com/entity/HotelAnnouncement.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/target/classes/com/entity/HotelAnnouncement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/target/classes/com/entity/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Entity/target/classes/com/entity/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Entity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Exception/target/NF-150-Cly-Exception-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Exception/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Exception/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Exception/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Service/src/main/java/com/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Service/src/main/java/com/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Service/src/main/java/com/service/impl/AdministradorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Service/src/main/java/com/service/impl/AdministradorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Service/src/main/java/com/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Service/src/main/java/com/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Service/target/NF-150-Cly-Service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Service/target/classes/com/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Service/target/classes/com/service/EmployeeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Service/target/classes/com/service/impl/AdministradorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Service/target/classes/com/service/impl/AdministradorServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Service/target/classes/com/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Service/target/classes/com/service/impl/EmployeeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/src/main/java/com/controller/AdministradorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/src/main/java/com/controller/AdministradorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/src/main/java/com/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/src/main/java/com/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/src/main/java/com/controller/IndexCotroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/src/main/java/com/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/AdministradorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/AdministradorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/classes/com/controller/IndexCotroller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/lib/NF-150-Cly-Dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/lib/NF-150-Cly-Dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/lib/NF-150-Cly-Entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/lib/NF-150-Cly-Entity-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/lib/NF-150-Cly-Service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/lib/NF-150-Cly-Service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/views/addEmpInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/views/addEmpInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/views/administradorIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/views/administradorIndex.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/views/empList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/views/empList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/target/NF-150-Cly-Web-1.0-SNAPSHOT/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/classes/com/controller/AdministradorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/target/classes/com/controller/AdministradorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/classes/com/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/target/classes/com/controller/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/classes/com/controller/IndexCotroller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/addEmpInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/addEmpInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/administradorIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/administradorIndex.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/empList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/empList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NF-150-Cly-Web/web/WEB-INF/views/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,15 +117,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf" />
+      <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Dao\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Dao\src\main\resources\static\js" />
       <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Dao\src\main\resources\static\img" />
       <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Dao\src\main\resources\static" />
       <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Dao\src\main\resources" />
       <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Web\src\main\java\com\config" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\曹令洋\Desktop\知识导图\HuaTianHotel-Cly-Nf\NF-150-Cly-Dao\src\main\resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -367,7 +269,8 @@
       <workItem from="1580899459384" duration="1185000" />
       <workItem from="1581297340812" duration="213000" />
       <workItem from="1581562732631" duration="1406000" />
-      <workItem from="1582202138822" duration="246000" />
+      <workItem from="1582202138822" duration="431000" />
+      <workItem from="1582205688793" duration="146000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1576723713895</created>
@@ -404,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576726010002</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第二次提交">
+      <created>1582202426151</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582202426151</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,10 +360,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="251" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1576754072344" />
-    <state x="95" y="0" key="CommitChangelistDialog2" timestamp="1576726008959">
+    <state x="95" y="0" key="CommitChangelistDialog2" timestamp="1582202419743">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="95" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576726008959" />
+    <state x="95" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582202419743" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1582202353092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -514,10 +424,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="529" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1576655133456" />
-    <state x="183" y="74" key="Vcs.Push.Dialog.v2" timestamp="1576726024495">
+    <state x="183" y="74" key="Vcs.Push.Dialog.v2" timestamp="1582202439861">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="183" y="74" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576726024495" />
+    <state x="183" y="74" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582202439861" />
     <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582202229751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

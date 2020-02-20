@@ -7,12 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NF-150-Cly-Exception" />
         <module name="NF-150-Cly-Service" />
+        <module name="NF-150-Cly-Exception" />
+        <module name="NF-150-Cly-Dao" />
         <module name="NF-150-Cly-Entity" />
         <module name="NF-150-Cly-Web" />
         <module name="NF-150-CLY-Interceptor" />
-        <module name="NF-150-Cly-Dao" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
