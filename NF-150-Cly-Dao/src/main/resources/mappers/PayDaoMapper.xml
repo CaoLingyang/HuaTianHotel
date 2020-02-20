@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.PayDao">
+    <insert id="PayMoney" parameterType="com.entity.Pay">
+        insert into pay_the_fees(roomid, paydate, moeny) values (#{roomid},{paydate},#{money})
+    </insert>
+    <select id="getAllById" resultType="com.entity.Pay">
+        select id, roomid, paydate, moeny  from pay_the_fees order by id
+    </select>
+</mapper>

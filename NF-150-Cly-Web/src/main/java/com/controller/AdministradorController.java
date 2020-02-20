@@ -3,16 +3,19 @@ package com.controller;
 
 import com.entity.Administrador;
 import com.entity.AdministradorEntity;
+import com.entity.EmployeeEntity;
 import com.service.AdministradorService;
 import com.service.AdministradorTwoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.validation.Valid;
 import java.util.Date;
 
 /**
@@ -23,8 +26,6 @@ import java.util.Date;
 @Controller
 public class AdministradorController {
 
-    @Autowired
-    private AdministradorTwoService administradorTwoService;
     @Autowired
     private AdministradorService administradorService;
 
@@ -58,35 +59,6 @@ public class AdministradorController {
         }
     }
 
-    @PostMapping("/index")
-    public String toregisteragain(@RequestParam(value = "username",required = false) String cname,
-                           @RequestParam(value = "phone",required = false) String phone,
-                           @RequestParam(value = "CheckDate",required = false) Date CheckDate,
-                           @RequestParam(value = "Idcard",required = false)String Idcard,
-                           @RequestParam(value = "address",required = false) String address, Model model) {
-        if (cname.equals(cname)) {
-            AdministradorEntity administradorEntity=new AdministradorEntity(cname,phone,CheckDate,Idcard,address);
-            administradorEntity.setCname(cname);
-            administradorEntity.setPhone(phone);
-            administradorEntity.setCheckdate(CheckDate);
-            administradorEntity.setIdcard(Idcard);
-            administradorEntity.setAddress(address);
-            System.out.println(administradorEntity);
-            if ((administradorTwoService.Toregisteragain(administradorEntity))>0){
-                model.addAttribute("msg","注册成功");
-                return "index";
-            }else {
-                model.addAttribute("msg","注册失败");
-                return "register";
-            }
-        }else {
-            model.addAttribute("msg","密码不一致");
-            return "register";
-        }
-    }
-
-
-
     @RequestMapping("/login")
     public String login(@RequestParam(value = "username",required = false) String username,
                         @RequestParam(value = "password",required = false) String password,
@@ -100,7 +72,7 @@ public class AdministradorController {
             return "index";
         } else {
             model.addAttribute("msg", "登录失败");
-            return "login";
+            return "testLogin";
         }
     }
 

@@ -47,7 +47,7 @@
             <div id="main-nav" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="#" class="scroll-top">主页</a></li>
-<%--                    <li><a href="#" class="scroll-link" data-id="about">员工</a></li>--%>
+                    <li><a href="#" class="scroll-link" data-id="about">缴费</a></li>
                     <li><a href="#" class="scroll-link" data-id="portfolio">房间</a></li>
 <%--                    <li><a href="#" class="scroll-link" data-id="employee">客户信息</a></li>--%>
                     <li><a href="#" class="scroll-link" data-id="blog">公告栏</a></li>
@@ -125,31 +125,31 @@
 
 
 
-<%--<div id="about" class="page-section">--%>
-<%--    <div class="container">--%>
-<%--        <div class="row">--%>
-<%--            <div class="col-md-12">--%>
-<%--                <div class="section-heading">--%>
-<%--                    <h4>员工(Employee)</h4>--%>
-<%--                    <div class="line-dec"></div>--%>
-<%--                </div>--%>
-<%--            </div>--%>
-<%--        </div>--%>
-<%--        <div class="row">--%>
-<%--            <div class="col-md-3 col-sm-6 col-xs-12">--%>
-<%--                <div class="service-item first-service">--%>
-<%--                    <div class="icon"></div>--%>
-<%--                    <h4><a href="/employee/add">我要入职</a> </h4>--%>
-<%--                    <p>I Want To Join Your Company. Please Give Me A Chance</p>--%>
-<%--                </div>--%>
-<%--            </div>--%>
-<%--            <div class="col-md-3 col-sm-6 col-xs-12">--%>
-<%--                <div class="service-item second-service">--%>
-<%--                    <div class="icon"></div>--%>
-<%--                    <h4><a href="/employee/empList">我司员工</a> </h4>--%>
-<%--                    <p>The excellent staff of our company make progress and grow together</p>--%>
-<%--                </div>--%>
-<%--            </div>--%>
+<div id="about" class="page-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <h4>缴费</h4>
+                    <div class="line-dec"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="service-item first-service">
+                    <div class="icon"></div>
+                    <h4><a href="/employee/add">我要缴费</a> </h4>
+                    <p>I Want To Join Your Company. Please Give Me A Chance</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="service-item second-service">
+                    <div class="icon"></div>
+                    <h4><a href="/pay/payList">我的订单</a> </h4>
+                    <p>The excellent staff of our company make progress and grow together</p>
+                </div>
+            </div>
 <%--            <div class="col-md-3 col-sm-6 col-xs-12">--%>
 <%--                <div class="service-item third-service">--%>
 <%--                    <div class="icon"></div>--%>
@@ -164,11 +164,11 @@
 <%--                    <p>Employees should be punished for--%>
 <%--                        their wrongdoing</p>--%>
 <%--                </div>--%>
-<%--            </div>--%>
-<%--        </div>--%>
-<%--    </div>--%>
-<%--</div>--%>
-<%--<div class="tlinks">Collect from <a href="#" >网页模板</a></div>--%>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="tlinks">Collect from <a href="#" >网页模板</a></div>
 
 <div id="what-we-do">
     <div class="container">
@@ -220,6 +220,7 @@
                         <li class="filter" data-filter="workspace"><span>双人间</span></li>
                         <li class="filter" data-filter="city"><span>商务单间</span></li>
                         <li class="filter" data-filter="technology"><span>商务双间</span></li>
+                        <li><a href="/user/add">入住房间</a> </li>
                         <%--                        <li class="filler" data-filter="executivesuite"><span>行政套房</span></li>--%>
                         <%--                        <li class="filler" data-filter="largemeetingroom "><span>会议室（小）</span></li>--%>
                         <%--                        <li class="filler" data-filter="smallconferenceroom"><span>会议室（大）</span></li>--%>
@@ -480,7 +481,7 @@
             </div>
             <div class="col-md-6">
                 <div class="row">
-                    <form id="contact" action="/index" method="post" class="layui-form-item">
+                    <form id="contact" action="/administradorIndex" method="post" class="layui-form-item">
                         <div class="col-md-6" >
                             <fieldset>
                                 <input name="username" type="text" class="form-control" id="username" placeholder="Your name..." required  lay-verify="required" autocomplete="off">

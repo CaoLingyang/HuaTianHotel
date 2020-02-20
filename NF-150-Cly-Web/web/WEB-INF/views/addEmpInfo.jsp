@@ -19,6 +19,7 @@
 
 <form action="${pageContext.request.contextPath}/employee/addEmpInfo" method="post"  name="addEmployee">
     <table id="table">
+
         用户名:<input type="text" name="name" ><br>
         性别:<input type="text" name="gender" ><br>
         出生日期:<input type="text" name="birthday" ><br>

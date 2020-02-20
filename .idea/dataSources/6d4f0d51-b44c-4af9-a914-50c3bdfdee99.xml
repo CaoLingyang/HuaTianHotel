@@ -940,78 +940,74 @@
     </collation>
     <table id="238" parent="5" name="administrator"/>
     <table id="239" parent="5" name="customers_to_check_in"/>
-    <table id="240" parent="5" name="employeeinfo"/>
+    <table id="240" parent="5" name="employeeinfo">
+      <Collation>utf8_general_ci</Collation>
+    </table>
     <table id="241" parent="5" name="hotelannouncement"/>
-    <table id="242" parent="5" name="role"/>
-    <table id="243" parent="5" name="room"/>
-    <column id="244" parent="238" name="id">
+    <table id="242" parent="5" name="pay_the_fees"/>
+    <table id="243" parent="5" name="role"/>
+    <table id="244" parent="5" name="room"/>
+    <column id="245" parent="238" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="245" parent="238" name="name">
+    <column id="246" parent="238" name="name">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="246" parent="238" name="phone">
+    <column id="247" parent="238" name="phone">
       <Position>3</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="247" parent="238" name="address">
+    <column id="248" parent="238" name="address">
       <Position>4</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="248" parent="238" name="username">
+    <column id="249" parent="238" name="username">
       <Position>5</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="249" parent="238" name="password">
+    <column id="250" parent="238" name="password">
       <Position>6</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="250" parent="238" name="remark">
+    <column id="251" parent="238" name="remark">
       <Position>7</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="251" parent="238" name="roomid">
+    <column id="252" parent="238" name="roomid">
       <Position>8</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="252" parent="238" name="roomname">
+    <column id="253" parent="238" name="roomname">
       <Position>9</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="253" parent="238" name="message">
+    <column id="254" parent="238" name="message">
       <Position>10</Position>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="254" parent="238" name="roomid">
+    <index id="255" parent="238" name="roomid">
       <ColNames>roomid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="255" parent="238" name="PRIMARY">
+    <key id="256" parent="238" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="256" parent="238" name="administrator_ibfk_1">
-      <ColNames>roomid</ColNames>
-      <RefTableName>room</RefTableName>
-      <RefColNames>roomid</RefColNames>
-      <OnUpdate>set-null</OnUpdate>
-      <OnDelete>set-null</OnDelete>
-    </foreign-key>
     <column id="257" parent="239" name="cname">
       <Position>1</Position>
       <DataType>varchar(20)|0s</DataType>
@@ -1049,7 +1045,7 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="264" parent="239" name="roomid">
+    <index id="264" parent="239" name="roomId">
       <ColNames>roomId</ColNames>
       <Type>btree</Type>
     </index>
@@ -1062,6 +1058,8 @@
       <ColNames>roomId</ColNames>
       <RefTableName>room</RefTableName>
       <RefColNames>roomid</RefColNames>
+      <OnUpdate>set-null</OnUpdate>
+      <OnDelete>set-null</OnDelete>
     </foreign-key>
     <column id="267" parent="240" name="id">
       <Position>1</Position>
@@ -1085,62 +1083,62 @@
       <DataType>date|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="271" parent="240" name="IdNumber">
+    <column id="271" parent="240" name="idNumber">
       <Position>5</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="272" parent="240" name="MaritalStatus">
+    <column id="272" parent="240" name="maritalStatus">
       <Position>6</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="273" parent="240" name="Nation">
+    <column id="273" parent="240" name="nation">
       <Position>7</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="274" parent="240" name="NativePlace">
+    <column id="274" parent="240" name="nativePlace">
       <Position>8</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="275" parent="240" name="PoliticsStatus">
+    <column id="275" parent="240" name="politicsStatus">
       <Position>9</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="276" parent="240" name="Email">
+    <column id="276" parent="240" name="email">
       <Position>10</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="277" parent="240" name="Phone">
+    <column id="277" parent="240" name="phone">
       <Position>11</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="278" parent="240" name="Address">
+    <column id="278" parent="240" name="address">
       <Position>12</Position>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="279" parent="240" name="Department">
+    <column id="279" parent="240" name="department">
       <Position>13</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="280" parent="240" name="Jodlevelid">
+    <column id="280" parent="240" name="jodlevelid">
       <Position>14</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="240" name="Position">
+    <column id="281" parent="240" name="position">
       <Position>15</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="240" name="PositionDate">
+    <column id="282" parent="240" name="positionDate">
       <Position>16</Position>
       <DataType>date|0s</DataType>
       <ColumnKind>normal</ColumnKind>
@@ -1215,57 +1213,96 @@
     </key>
     <column id="295" parent="242" name="id">
       <Position>1</Position>
+      <DataType>int(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="296" parent="242" name="roomid">
+      <Position>2</Position>
+      <DataType>int(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="297" parent="242" name="paydate">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="298" parent="242" name="moeny">
+      <Position>4</Position>
+      <DataType>float(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="299" parent="242" name="roomid">
+      <ColNames>roomid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="300" parent="242" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="301" parent="242" name="pay_the_fees_ibfk_1">
+      <ColNames>roomid</ColNames>
+      <RefTableName>room</RefTableName>
+      <RefColNames>roomid</RefColNames>
+      <OnUpdate>set-null</OnUpdate>
+      <OnDelete>set-null</OnDelete>
+    </foreign-key>
+    <column id="302" parent="243" name="id">
+      <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="296" parent="242" name="name">
+    <column id="303" parent="243" name="name">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="297" parent="242" name="creation_date">
+    <column id="304" parent="243" name="creation_date">
       <Position>3</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="298" parent="242" name="id">
+    <index id="305" parent="243" name="id">
       <ColNames>id</ColNames>
       <Type>btree</Type>
     </index>
-    <column id="299" parent="243" name="roomid">
+    <column id="306" parent="244" name="roomid">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="300" parent="243" name="type">
+    <column id="307" parent="244" name="type">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="301" parent="243" name="money">
+    <column id="308" parent="244" name="money">
       <Position>3</Position>
       <DataType>decimal(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="302" parent="243" name="remark">
+    <column id="309" parent="244" name="remark">
       <Position>4</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="303" parent="243" name="restroom">
+    <column id="310" parent="244" name="restroom">
       <Position>5</Position>
       <DataType>int(255)|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="304" parent="243" name="PRIMARY">
+    <key id="311" parent="244" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>roomid</ColNames>
       <Primary>1</Primary>

@@ -4,14 +4,19 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.dao.EmployeeDao">
 
+    <select id="getAllByName" resultType="com.entity.EmployeeEntity" parameterType="java.lang.String">
+        select id, name, gender, birthday, idNumber, maritalStatus, nation, nativePlace, politicsStatus, email, phone, address, department, jodlevelid, "position", positionDate, school, deptid  from employeeinfo
+        where name like #{name}
+    </select>
     <insert id="AddEmployeeInfo" parameterType="com.entity.EmployeeEntity">
-        insert  into employeeinfo(name, gender, birthday, IdNumber, MaritalStatus, Nation, NativePlace, PoliticsStatus, Email, Phone, Address, Department, Jodlevelid, Position, PositionDate, school) Values(#{name},#{gender},#{birthday},#{IdNumber},#{MaritalStatus},#{Nation},#{NativePlace},#{PoliticsStatus},#{Email},#{Phone},#{Address},#{Department},#{Jodlevelid},#{Position},#{PositionDate},#{school})
+        insert  into employeeinfo(name, gender, birthday, idNumber, maritalStatus, nation, nativePlace, politicsStatus, email, phone, address, department, jodlevelid, position, positionDate, school, deptid)
+         Values(#{name},#{gender},#{birthday},#{idNumber},#{maritalStatus},#{nation},#{nativePlace},#{politicsStatus},#{email},#{phone},#{address},#{department},#{jodlevelid},#{position},#{positionDate},#{school},#{deptid})
     </insert>
     <select id="getAll"  resultType="com.entity.EmployeeEntity">
-        select id, name, gender, birthday, IdNumber, MaritalStatus, Nation, NativePlace, PoliticsStatus, Email, Phone, Address, Department, Jodlevelid, Position, PositionDate, school from employeeinfo order by id
+        select id, name, gender, birthday, idNumber, maritalStatus, nation, nativePlace, politicsStatus, email, phone, address, department, jodlevelid, "position", positionDate, school, deptid from employeeinfo order by id
     </select>
     <select id="getAllById" resultType="com.entity.EmployeeEntity"  parameterType="Integer">
-        select id, name, gender, birthday, IdNumber, MaritalStatus, Nation, NativePlace, PoliticsStatus, Email, Phone, Address, Department, Jodlevelid, "Position", PositionDate, school from employeeinfo where id=#{id}
+        select id, name, gender, birthday, idNumber, maritalStatus, nation, nativePlace, politicsStatus, email, phone, address, department, jodlevelid, "position", positionDate, school, deptid from employeeinfo where id=#{id}
     </select>
     <delete id="deleteById">
         delete from employeeinfo where id=#{id}

@@ -16,4 +16,5 @@ public interface EmployeeDao {
             , @Param("pageSize") int pageSize);
     EmployeeEntity getAllById(Integer id);
     int updateById(EmployeeEntity employeeEntity);
+    List<EmployeeEntity>getAllByName(String name);
 }

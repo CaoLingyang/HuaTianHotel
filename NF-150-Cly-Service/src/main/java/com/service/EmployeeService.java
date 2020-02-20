@@ -17,4 +17,5 @@ public interface EmployeeService {
             , @Param("pageSize") int pageSize);
     void updateById(EmployeeEntity employeeEntity);
     EmployeeEntity getAllById(Integer id);
+    List<EmployeeEntity>getAllByName(String name);
 }

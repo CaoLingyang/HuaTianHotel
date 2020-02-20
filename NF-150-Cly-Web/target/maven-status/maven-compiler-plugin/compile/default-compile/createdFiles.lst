@@ -1,8 +1,0 @@
-com\config\SystemConfig.class
-com\controller\roomController.class
-com\controller\AdministradorController.class
-com\config\AppConfig.class
-com\controller\CustomerInformationController.class
-com\config\MvcConfig.class
-com\controller\EmployeeController.class
-com\controller\HotelAnnouncementController.class

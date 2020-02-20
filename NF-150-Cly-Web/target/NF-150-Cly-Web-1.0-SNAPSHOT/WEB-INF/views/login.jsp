@@ -15,57 +15,57 @@
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
     <title>登录界面</title>
-    <link href="css/default.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/default.css" rel="stylesheet" type="text/css" />
     <!--必要样式-->
-    <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="css/demo.css" rel="stylesheet" type="text/css" />
-    <link href="css/loaders.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/demo.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/loaders.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-<form method="get" action="/userInfo/login">
-<div class='login'>
-    <div class='login_title'>
-        <span>管理员登录</span>
-    </div>
-    <form class='login_fields'>
-        <div class='login_fields__user'>
-            <div class='icon'>
-                <img alt="" src='img/user_icon_copy.png'>
+<%--<form method="get" action="/userInfo/login">--%>
+    <div class='login'>
+        <div class='login_title'>
+            <span>管理员登录</span>
+        </div>
+        <div class='login_fields'>
+            <div class='login_fields__user'>
+                <div class='icon'>
+                    <img alt="" src='static/img/user_icon_copy.png'>
+                </div>
+                <input name="login" placeholder='用户名' maxlength="16" type='text' autocomplete="off" value="kbcxy" />
+                <div class='validation'>
+                    <img alt="" src='static/img/tick.png'>
+                </div>
             </div>
-            <input name="username" placeholder='用户名' maxlength="16" type='text' autocomplete="off" value="kbcxy" />
-            <div class='validation'>
-                <img alt="" src='img/tick.png'>
+            <div class='login_fields__password'>
+                <div class='icon'>
+                    <img alt="" src='static/img/lock_icon_copy.png'>
+                </div>
+                <input name="pwd" placeholder='密码' maxlength="16" type='text' autocomplete="off">
+                <div class='validation'>
+                    <img alt="" src='static/img/tick.png'>
+                </div>
+            </div>
+            <div class='login_fields__password'>
+                <div class='icon'>
+                    <img alt="" src='static/img/key.png'>
+                </div>
+                <input name="code" placeholder='验证码' maxlength="4" type='text' name="ValidateNum" autocomplete="off">
+                <div class='validation' style="opacity: 1; right: -5px;top: -3px;">
+                    <canvas class="J_codeimg" id="myCanvas" onclick="Code();">对不起，您的浏览器不支持canvas，请下载最新版浏览器!</canvas>
+                </div>
+            </div>
+            <div class='login_fields__submit'>
+                <input type='button' value='登录'>
             </div>
         </div>
-        <div class='login_fields__password'>
-            <div class='icon'>
-                <img alt="" src='img/lock_icon_copy.png'>
-            </div>
-            <input name="password" placeholder='密码' maxlength="16" type='text' autocomplete="off">
-            <div class='validation'>
-                <img alt="" src='img/tick.png'>
-            </div>
-        </div>
-        <div class='login_fields__password'>
-            <div class='icon'>
-                <img alt="" src='img/key.png'>
-            </div>
-            <input name="code" placeholder='验证码' maxlength="4" type='text' name="ValidateNum" autocomplete="off">
-            <div class='validation' style="opacity: 1; right: -5px;top: -3px;">
-                <canvas class="J_codeimg" id="myCanvas" onclick="Code();">对不起，您的浏览器不支持canvas，请下载最新版浏览器!</canvas>
-            </div>
-        </div>
-        <div class='login_fields__submit'>
-            <input type='button' value='登录'>
-        </div>
-
-    </div>
-    <div class='success'>
-    </div>
-    <div class='disclaimer'>
-        <p>欢迎登陆后台管理系统</p>
-    </div>
+<%--</form>--%>
+<div class='success'>
+</div>
+<div class='disclaimer'>
+    <p>欢迎登陆后台管理系统</p>
+</div>
 </div>
 <div class='authent'>
     <div class="loader" style="height: 44px;width: 44px;margin-left: 28px;">
@@ -77,22 +77,21 @@
     </div>
     <p>认证中...</p>
 </div>
-</form>
 <div class="OverWindows"></div>
-<link href="layui/css/layui.css" rel="stylesheet" type="text/css" />
+<link href="static/layui/css/layui.css" rel="stylesheet" type="text/css" />
 <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
 <script src="https://www.jq22.com/jquery/jquery-ui-1.11.0.js"></script>
-<script type="text/javascript" src='js/stopExecutionOnTimeout.js?t=1'></script>
-<script src="layui/layui.js" type="text/javascript"></script>
-<script src="js/Particleground.js" type="text/javascript"></script>
-<script src="Js/Treatment.js" type="text/javascript"></script>
-<script src="js/jquery.mockjax.js" type="text/javascript"></script>
+<script type="text/javascript" src='static/js/stopExecutionOnTimeout.js?t=1'></script>
+<script src="static/layui/layui.js" type="text/javascript"></script>
+<script src="static/js/Particleground.js" type="text/javascript"></script>
+<script src="static/Js/Treatment.js" type="text/javascript"></script>
+<script src="static/js/jquery.mockjax.js" type="text/javascript"></script>
 <script type="text/javascript">
     var canGetCookie = 0; //是否支持存储Cookie 0 不支持 1 支持
     var ajaxmockjax = 1; //是否启用虚拟Ajax的请求响 0 不启用  1 启用
     //默认账号密码
 
-    var truelogin = "kbcxy";
+    var truelogin = "admin";
     var truepwd = "1";
 
     var CodeVal = 0;
@@ -159,8 +158,8 @@
     layui.use('layer', function() {
         //非空验证
         $('input[type="button"]').click(function() {
-            var login = $('input[name="username"]').val();
-            var pwd = $('input[name="password"]').val();
+            var login = $('input[name="login"]').val();
+            var pwd = $('input[name="pwd"]').val();
             var code = $('input[name="code"]').val();
             if(login == '') {
                 ErroAlert('请输入您的账号');
@@ -197,10 +196,10 @@
         }
     }
 </script>
-<script type="text/javascript" src="img/ThreeWebGL.js"></script>
-<script type="text/javascript" src="img/ThreeExtras.js"></script>
-<script type="text/javascript" src="img/Detector.js"></script>
-<script type="text/javascript" src="img/RequestAnimationFrame.js"></script>
+<script type="text/javascript" src="static/img/ThreeWebGL.js"></script>
+<script type="text/javascript" src="static/img/ThreeExtras.js"></script>
+<script type="text/javascript" src="static/img/Detector.js"></script>
+<script type="text/javascript" src="static/img/RequestAnimationFrame.js"></script>
 <script id="vs" type="x-shader/x-vertex">
 			varying vec2 vUv; void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 ); }
 		</script>

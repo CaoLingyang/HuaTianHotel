@@ -464,62 +464,7 @@
 
 
 <div id="contact" class="page-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-heading">
-                    <h4>填写信息</h4>
-                    <div class="line-dec"></div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="map">
-                    <img src="/static/img/map.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <form id="contact" action="/index" method="post" class="layui-form-item">
-                        <div class="col-md-6" >
-                            <fieldset>
-                                <input name="username" type="text" class="form-control" id="username" placeholder="Your name..." required  lay-verify="required" autocomplete="off">
-                            </fieldset>
-                        </div>
-                        <div class="col-md-6">
-                            <fieldset>
-                                <input name="phone" type="text" class="form-control" id="phone" placeholder="Your phone..." required  lay-verify="required" autocomplete="off">
-                            </fieldset>
-                        </div>
-                        <div class="col-md-6">
-                            <fieldset>
-                                <input name="checkDate" type="text" class="form-control" id="checkDate" placeholder="Your checkDate..." required  lay-verify="required" autocomplete="off">
-                            </fieldset>
-                        </div>
-                        <div class="col-md-6">
-                            <fieldset>
-                                <input name="Idcard" type="text" class="form-control" id="Idcard" placeholder="Your Idcard..." required  lay-verify="required" autocomplete="off">
-                            </fieldset>
-                        </div>
-                        <div class="col-md-12">
-                            <fieldset>
-                                <input name="address" type="text" class="form-control" id="address" placeholder="Your address..." required  lay-verify="required" autocomplete="off">
-                            </fieldset>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="layui-input-block">
-                            <fieldset>
-                                <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
-                                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
-                            </fieldset>
-                        </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </div>
 
 
@@ -530,7 +475,7 @@
                 <div class="copyright-text">
                     <p>Copyright &copy; 2019 Company Name
 
-                        - Design: <a href="#/view/2089-meteor" target="_parent">YangYang</a>.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="华天酒店">华天酒店</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">酒店页面</a></p>
+                        - Design: <a href="#/view/2089-meteor" target="_parent">YangYang</a>.More Templates <a href="#" target="_blank" title="华天酒店">华天酒店</a> - Collect from <a href="#" title="网页模板" target="_blank">酒店页面</a></p>
                 </div>
             </div>
             <div class="col-md-6">

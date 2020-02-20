@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.dao.AccountInformationDao">
+<mapper namespace="com.dao.AccountDao">
 
     <insert id="register" parameterType="com.entity.Administrador">
     insert into administrator(username,password,phone) values(#{username},#{password},#{phone})

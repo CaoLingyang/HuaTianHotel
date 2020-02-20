@@ -4,13 +4,16 @@ import com.entity.EmployeeEntity;
 import com.github.pagehelper.PageInfo;
 import com.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.validation.Valid;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
@@ -24,6 +27,12 @@ public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
 
+
+
+    @InitBinder
+    public void init(WebDataBinder binder) {
+        binder.registerCustomEditor(Date.class, new CustomDateEditor(new SimpleDateFormat("yyyy-MM-dd"), true));
+    }
 
     @RequestMapping("/empList")
     public String EmpList(@RequestParam(value = "pageNum",required = false,defaultValue = "1")int pageNum,
@@ -82,11 +91,21 @@ public class EmployeeController {
         PageInfo pageInfo=new PageInfo(employeeEntities);
         model.addAttribute("delete",pageInfo);
         return "EmployeeDelete";
+
     }
 
     @RequestMapping("/deleteById")
     public String deleteById(Integer id){
         employeeService.delete(id);
         return "EmployeeDelete";
+    }
+
+    @RequestMapping("/getAllByName")
+    public ModelAndView getAllByName(String name){
+        List<EmployeeEntity> employeeEntities =employeeService.getAllByName(name);
+        ModelAndView modelAndView=new ModelAndView();
+        modelAndView.addObject("employeeEntities",employeeEntities);
+        modelAndView.setViewName("empList");
+        return modelAndView;
     }
 }

@@ -10,7 +10,7 @@ import java.util.List;
  * @create2019/12/17
  */
 public interface HotelAnnouncementDao {
-    List<HotelAnnouncement> getAll(@Param("pageNum") int pageNum,
+    List<HotelAnnouncement> getAll(@Param("pageum") int pageNum,
                                    @Param("pageSize") int pageSize);
 
     HotelAnnouncement getAllById(Integer id);

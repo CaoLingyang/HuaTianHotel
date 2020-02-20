@@ -41,4 +41,9 @@ public class EmployeeServiceImpl implements EmployeeService {
     public EmployeeEntity getAllById(Integer id) {
        return employeeDao.getAllById(id);
     }
+
+    @Override
+    public List<EmployeeEntity> getAllByName(String name) {
+        return employeeDao.getAllByName(name);
+    }
 }

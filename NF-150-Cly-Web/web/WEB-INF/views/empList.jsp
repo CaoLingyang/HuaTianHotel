@@ -61,6 +61,15 @@
         </tr>
     </c:forEach>
 </table>
+<form action="${pageContext.request.contextPath}/employee/getAllByName"
+      method="post">
+    <div class="col-md-4 data1">
+        <input type="text" class="form-control" name="name"
+               placeholder="name" value="">
+    </div>
+    <button type="submit" class="btn bg-maroon">搜索</button>
+
+</form>
 <ul class="pagination">
     <li><a href="/employee/empList?pageNum=1">首页</a> </li>
     <li><a href="/employee/empList?pageNum=${list.prePage}">上一页</a> </li>
